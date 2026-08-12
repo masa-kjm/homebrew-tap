@@ -1,5 +1,5 @@
 class Shelfbox < Formula
-  desc "Keep local files visible in your editor but invisible to Git"
+  desc "Keep AI context files visible in your editor but invisible to Git"
   homepage "https://github.com/masa-kjm/shelfbox"
   version "0.9.1"
   license "MIT"
