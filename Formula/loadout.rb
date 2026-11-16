@@ -1,30 +1,30 @@
 class Loadout < Formula
   desc "Local environment manager built around explicit desired state"
   homepage "https://github.com/masa-kjm/loadout"
-  version "0.6.0"
+  version "0.8.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/masa-kjm/loadout/releases/download/v0.6.0/loadout-v0.6.0-aarch64-apple-darwin.tar.gz"
-      sha256 "85a8afe45f14a5028fcecacfe9635072679e9389fc4eb5013c034a9c2c89ebce"
+      url "https://github.com/masa-kjm/loadout/releases/download/v0.8.1/loadout-v0.8.1-aarch64-apple-darwin.tar.gz"
+      sha256 "e88abc5772856e095f668931077d7c622b36ca9e0eff7fa58ac789805c043c5f"
     end
 
     on_intel do
-      url "https://github.com/masa-kjm/loadout/releases/download/v0.6.0/loadout-v0.6.0-x86_64-apple-darwin.tar.gz"
-      sha256 "c25c12b6d6e9366912c3effa3efa6a423670a742676479f9f6c44ff103a0ca15"
+      url "https://github.com/masa-kjm/loadout/releases/download/v0.8.1/loadout-v0.8.1-x86_64-apple-darwin.tar.gz"
+      sha256 "b392ad74bb4d5890a8ae516c58694632e1f94be26cb131a09c87b4720e4aed3f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/masa-kjm/loadout/releases/download/v0.6.0/loadout-v0.6.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e7313cdd6f117ae3f3d10a383437d0fbe180ebe61fdb0f51a4629574679c5110"
+      url "https://github.com/masa-kjm/loadout/releases/download/v0.8.1/loadout-v0.8.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "380a6f8176462c808099788b00531e7cf1ee123b5c7b9e68f762c0a2c146d8e1"
     end
 
     on_intel do
-      url "https://github.com/masa-kjm/loadout/releases/download/v0.6.0/loadout-v0.6.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "2d158beb70eb7d154acee83fadaf0886504cb4b449fbfcb0fd855c0e13011b6a"
+      url "https://github.com/masa-kjm/loadout/releases/download/v0.8.1/loadout-v0.8.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "7d1d1cbb918f58c96105b4ba73143393a8f4099ec566a7f9da975adfecaaadb1"
     end
   end
 
